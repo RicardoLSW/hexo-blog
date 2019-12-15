@@ -20,7 +20,7 @@ element{
 }
 ```
 
-> 者指定 `background-size:contain`;都可以，大家试试！ 
+> 或者指定 `background-size:contain`;都可以，大家试试！ 
 
 ### **图片加载** 
 
