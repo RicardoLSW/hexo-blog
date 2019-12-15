@@ -21,6 +21,6 @@ ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3 &&
 yum -y install epel-release &&  
 yum -y install python-pip &&  
 pip install --upgrade pip &&  
-yum install python-devel
+yum install python-devel -y
 ```
 
