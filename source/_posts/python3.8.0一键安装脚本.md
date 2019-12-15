@@ -2,6 +2,8 @@
 title: python3.8.0一键安装脚本
 ---
 
+### 适用于Centos7的python3.8.0一键安装脚本
+
 ```shell
 yum install gcc -y &&  
 yum -y install wget &&  
