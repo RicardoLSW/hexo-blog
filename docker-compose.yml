@@ -4,6 +4,7 @@ services:
     hexoNginx:
         restart: always
         image: hexo-nginx
+        user: root
         ports: 
             - 80:80
         volumes: 
