@@ -1,0 +1,11 @@
+version: "1"
+
+services: 
+    hexoNginx:
+        restart: always
+        image: hexo-nginx
+        ports: 
+            - 80:80
+        volumes: 
+            - /root/nginx/nginx.conf:/etc/nginx/nginx.conf
+            - /root/nginx/conf.d:/etc/nginx/conf.d
