@@ -2,6 +2,9 @@ version: "2"
 
 services: 
     hexoNginx:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
         restart: always
         image: hexo-nginx
         user: root
