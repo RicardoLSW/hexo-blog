@@ -6,7 +6,7 @@ services:
             context: .
             dockerfile: ./Dockerfile
         restart: always
-        image: hexo-nginx
+        image: hexo_nginx
         user: root
         ports: 
             - 80:80
