@@ -4,6 +4,8 @@ date: 2019-12-15 17:48:58
 tags:
 ---
 
+### 适用于Centos7的Shadowsocks一键安装脚本
+
 ### 安装命令
 
 ```shell
