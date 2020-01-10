@@ -10,3 +10,5 @@ services:
         user: root
         ports: 
             - 80:80
+        volumes:
+            - /home/cert:/etc/nginx/cert
