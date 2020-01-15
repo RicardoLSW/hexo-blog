@@ -10,7 +10,7 @@ echo "删除容器"
 git pull
 rm -rf public/
 yarn run build
-mv favicon.png public/
+cp favicon.png public/
 echo "拉取代码，重新打包"
 
 docker-compose up -d
