@@ -13,3 +13,4 @@ services:
             - 443:443
         volumes:
             - /home/cert:/etc/nginx/cert
+            - /home/images:/usr/share/nginx/images
