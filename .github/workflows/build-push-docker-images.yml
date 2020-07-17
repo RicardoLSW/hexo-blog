@@ -29,6 +29,6 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         registry: docker.pkg.github.com/
         # Docker repository to tag the image with
-        repository: RicardoLSW/hexo-blog
+        repository: ricardolsw/hexo-blog
         # Comma-delimited list of tags. These will be added to the registry/repository to form the image's tags
         tags: latest
